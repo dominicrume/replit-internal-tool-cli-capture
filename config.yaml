@@ -1,0 +1,24 @@
+pipeline:
+  input_dir: input
+  quarantine_file: output/quarantine.csv
+  summary_dir: output
+  db_path: db/pipeline.db
+  table_name: records
+
+schema:
+  columns:
+    - name: id
+      type: string
+      required: true
+    - name: name
+      type: string
+      required: true
+    - name: amount
+      type: numeric
+      required: true
+    - name: category
+      type: string
+      required: false
+
+schedule:
+  cron: "0 0 * * *"
