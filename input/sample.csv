@@ -1,0 +1,6 @@
+id,name,amount,category
+1,Alice Smith,99.999,Electronics
+2,BOB JONES,15.1,Books
+3,carol white,0.5,
+4,,200.00,Food
+5,dave,not-a-number,Toys
